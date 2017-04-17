@@ -11,3 +11,8 @@ dependencies {
 
 
 mainClassName = "io.RustJNA"
+
+run {
+    /* Can pass all the properties: */
+    systemProperties System.getProperties()
+}
