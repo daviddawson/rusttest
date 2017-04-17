@@ -1,0 +1,9 @@
+apply plugin:"java"
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'net.java.dev.jna:jna:4.4.0'
+}
